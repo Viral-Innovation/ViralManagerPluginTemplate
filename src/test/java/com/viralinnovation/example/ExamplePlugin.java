@@ -1,4 +1,3 @@
 package com.viralinnovation.example;
-
-public class main {
+public class ExamplePlugin {
 }
