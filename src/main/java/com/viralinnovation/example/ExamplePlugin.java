@@ -1,14 +1,15 @@
 package com.viralinnovation.example;
 
-import com.viralinnovation.viralmanager.api.Plugin;
-import com.viralinnovation.viralmanager.api.PluginConfig;
-import com.viralinnovation.viralmanager.api.Registry;
+import com.viralinnovation.viralmanager.api.plugins.Plugin;
+import com.viralinnovation.viralmanager.api.plugins.PluginConfig;
+import com.viralinnovation.viralmanager.api.plugins.Registry;
+import com.viralinnovation.viralmanager.api.plugins.exceptions.PluginException;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 
 public final class ExamplePlugin extends Plugin {
-    public ExamplePlugin(@NotNull PluginConfig pluginConfig, Logger logger, Registry registry) {
-        super(pluginConfig, logger, registry);
+    public ExamplePlugin(@NotNull PluginConfig pluginConfig, Logger logger) throws PluginException {
+        super(pluginConfig, logger);
         System.out.println("I got called");
         logger.info("YAY! This shit works");
     }
@@ -19,7 +20,7 @@ public final class ExamplePlugin extends Plugin {
     }
 
     @Override
-    public void deregister(Registry registry) {
+    public void deregister() {
 
     }
 }
