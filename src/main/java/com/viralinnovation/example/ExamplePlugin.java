@@ -10,7 +10,6 @@ import org.slf4j.Logger;
 public final class ExamplePlugin extends Plugin {
     public ExamplePlugin(@NotNull PluginConfig pluginConfig, Logger logger) throws PluginException {
         super(pluginConfig, logger);
-        System.out.println("I got called");
         logger.info("YAY! This shit works");
     }
 
