@@ -1,4 +1,4 @@
 name: "test"
-main: "com.viralinnovation.example"
+main: "com.viralinnovation.example.ExamplePlugin"
 id: "27dd8ab6-7fdd-467b-a1b5-468bb3b17951"
 version: "1.0.0-SNAPSHOT"
