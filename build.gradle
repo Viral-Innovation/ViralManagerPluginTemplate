@@ -10,7 +10,7 @@ version '1.0.0-SNAPSHOT'
 repositories {
     mavenCentral()
     maven {
-        url 'http://localhost:8081/repository/Dev-Release/'
+        url 'http://localhost:8081/repository/maven-releases/'
         allowInsecureProtocol = true
     }
 }
