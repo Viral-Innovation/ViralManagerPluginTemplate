@@ -1,5 +1,3 @@
-import org.gradle.api.internal.tasks.ImplementationAwareTaskAction
-
 plugins {
     id 'java'
 }
@@ -10,13 +8,13 @@ version '1.0.0-SNAPSHOT'
 repositories {
     mavenCentral()
     maven {
-        url 'http://localhost:8081/repository/maven-releases/'
+        url 'https://maven.viral-innovation.com/repository/maven-releases/'
         allowInsecureProtocol = true
     }
 }
 
 dependencies {
-    compileOnly 'com.viralinnovation:ViralManagerAPI:1.0.0-19'
+    compileOnly 'com.viralinnovation:ViralManagerAPI:1.0.0-21'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
 }

@@ -8,9 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a6744b-050f-434c-be69-564a9b021352" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viralinnovation/example/ExamplePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viralinnovation/example/ExamplePlugin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-17",
-    "last_opened_file_path": "/home/cedric/Documents/ViralManagerPluginTemplate",
+    "last_opened_file_path": "D:/GitHub/ViralManagerPluginTemplate",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -94,13 +94,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.ViralManagerPluginTemplate [dependencies]">
+  <component name="RunManager" selected="Gradle.ViralManagerPluginTemplate [build]">
     <configuration name="ViralManagerPluginTemplate [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -158,10 +158,15 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.ViralManagerPluginTemplate [build]" />
+      <item itemvalue="Gradle.ViralManagerPluginTemplate [clean]" />
+      <item itemvalue="Gradle.ViralManagerPluginTemplate [dependencies]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ViralManagerPluginTemplate [dependencies]" />
         <item itemvalue="Gradle.ViralManagerPluginTemplate [build]" />
+        <item itemvalue="Gradle.ViralManagerPluginTemplate [dependencies]" />
         <item itemvalue="Gradle.ViralManagerPluginTemplate [clean]" />
       </list>
     </recent_temporary>
@@ -176,6 +181,8 @@
       <updated>1659297865245</updated>
       <workItem from="1659297866900" duration="1755000" />
       <workItem from="1659548682674" duration="7234000" />
+      <workItem from="1663349022301" duration="1406000" />
+      <workItem from="1663351731996" duration="1063000" />
     </task>
     <servers />
   </component>
